@@ -10,6 +10,7 @@ const isOverflowed = (el: HTMLElement): boolean => {
   const { scrollWidth } = cloneEl;
   // 3. remove the clone element
   el.parentElement!.removeChild(cloneEl);
+  // 4. return true if the element is overflowed
   return scrollWidth > clientWidth;
 };
 
