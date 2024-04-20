@@ -1,6 +1,6 @@
 {
   "name": "@jswork/is-overflowed",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "Detect element text overflowed.",
   "main": "dist/index.cjs.js",
@@ -37,5 +37,11 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {},
-  "keywords": []
+  "keywords": [
+    "detect",
+    "ellipsis",
+    "overflow",
+    "text",
+    "text-overflow"
+  ]
 }
