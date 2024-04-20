@@ -14,7 +14,7 @@ gulpfile.js
 .release-it.json
 typedoc.js
 tsconfig.json
-jest.config.js
+jest.config.cjs
 babel.config.js
 yarn-error.log
 yarn.lock
